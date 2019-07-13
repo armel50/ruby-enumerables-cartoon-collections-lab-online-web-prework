@@ -9,7 +9,7 @@ end
 end
 
 def summon_captain_planet(array)
-  array = array.each{|element| "#{element.capitalize}"}
+  array = array.each{|element| "#{element.capitalize}!"}
   
   array
 end
