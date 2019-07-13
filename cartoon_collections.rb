@@ -14,7 +14,7 @@ def summon_captain_planet(array)
      newArray.push("#{element.capitalize}!")
  end
   
-  array
+  newArray
 end
 def long_planeteer_calls(array)
   # Your code here
