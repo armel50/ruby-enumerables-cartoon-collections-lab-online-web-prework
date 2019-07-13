@@ -18,6 +18,15 @@ def summon_captain_planet(array)
 end
 def long_planeteer_calls(array)
   # Your code here
+  newArray = []
+  
+ newArray= array.select{|e| e.length > 4}
+  
+  
+  if newArray.length != 0 
+    return true 
+  end 
+  return false
 end
 
 def find_the_cheese(array)
