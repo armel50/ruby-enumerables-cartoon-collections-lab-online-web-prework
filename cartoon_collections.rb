@@ -36,6 +36,8 @@ def find_the_cheese(array)
     
   if array.include?("#{e}") 
     return array[array.index("#{e}")]
+  else 
+    return nil
   end
 end
 end
